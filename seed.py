@@ -25,12 +25,6 @@ try:
     db.add_all(user_list)
     db.commit()
 
-    db.add_all(teas_list)
-    db.commit()
-
-    db.add_all(comments_list)
-    db.commit()
-
     db.close()
 
     print("Database seeding complete! 👋")
